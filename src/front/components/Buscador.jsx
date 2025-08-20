@@ -346,7 +346,7 @@ export const BuscadorPersonas = () => {
 
     return (
         <div style={{ padding: "20px", maxWidth: "1200px", margin: "auto" }}>
-            <h1 style={{ color: "#0d6efd", textAlign: "center" }}>Buscador de Personas</h1>
+            <h1 style={{ color: "#022559ff", textAlign: "center" }}>Buscador de Personas</h1>
             <input
                 type="text"
                 placeholder="Escribe nombre o profesión..."
@@ -383,7 +383,7 @@ export const BuscadorPersonas = () => {
                             onMouseEnter={(e) => e.currentTarget.style.transform = "scale(1.03)"}
                             onMouseLeave={(e) => e.currentTarget.style.transform = "scale(1)"}
                         >
-                            <h2 style={{ marginBottom: "10px", color: "#0d6efd" }}>{persona.nombre}</h2>
+                            <h4 style={{ marginBottom: "10px", color: "#033a8eff" }}>{persona.nombre}</h4>
                             <p><strong>Edad:</strong> {persona.edad}</p>
                             <p><strong>Profesión:</strong> {persona.profesion}</p>
                             <p><strong>Ciudad:</strong> {persona.ciudad}</p>
